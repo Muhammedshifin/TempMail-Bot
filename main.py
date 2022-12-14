@@ -28,7 +28,7 @@ msg_buttons=InlineKeyboardMarkup(
 
 # Fillout The variables in Config.py further queries @riz4d 0n telegram
 
-apl = Client(
+app = Client(
     "Remove Background Bot",
     bot_token=os.environ.get("BOT_TOKEN"),
     api_id=int(os.environ.get("API_ID")),
